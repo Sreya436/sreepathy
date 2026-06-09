@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMAT | Sreepathy Institute of Management & Technology</title>
+    <meta name="description" content="Sreepathy Institute of Management & Technology (SIMAT) - AICTE Approved, KTU Affiliated engineering college located in Palakkad, Kerala, India.">
+    
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loader" class="loader-container">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress-container">
+        <div class="scroll-progress-bar" id="scroll-bar"></div>
+    </div>
+
+    <!-- Sticky Navbar -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <i class="fa-solid fa-graduation-cap"></i> SIMAT
+            </a>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#departments" class="nav__link">Departments</a></li>
+                    <li class="nav__item"><a href="#placements" class="nav__link">Placements</a></li>
+                    <li class="nav__item"><a href="#facilities" class="nav__link">Facilities</a></li>
+                    <li class="nav__item"><a href="#admissions" class="nav__link">Admissions</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="hero__bg"></div>
+            <!-- Animated floating shapes -->
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            
+            <div class="hero__container container grid reveal">
+                <div class="hero__data">
+                    <h3 class="hero__subtitle">Sreepathy Institute of Management & Technology</h3>
+                    <h1 class="hero__title">Empowering Future <br> <span class="text-gradient">Engineers</span></h1>
+                    <p class="hero__description">
+                        AICTE Approved | KTU Affiliated | Excellence in Engineering Education
+                    </p>
+                    <div class="hero__buttons">
+                        <a href="#admissions" class="btn btn-primary">Apply Now <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="#departments" class="btn btn-outline">Explore Programs</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About SIMAT -->
+        <section class="about section" id="about">
+            <div class="about__container container grid reveal">
+                <div class="about__img-wrapper">
+                    <img src="images/library_students.png" alt="Students reading in library" class="about__img" onerror="this.src='https://images.unsplash.com/photo-1568225539566-eb193f9c63f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
+                    <div class="about__experience glass-card">
+                        <h2 class="about__experience-number"><span class="counter" data-target="15">0</span>+</h2>
+                        <span class="about__experience-title">Years of <br> Excellence</span>
+                    </div>
+                </div>
+
+                <div class="about__data">
+                    <h2 class="section__title">About <span>SIMAT</span></h2>
+                    <p class="about__description">
+                        Sreepathy Institute of Management & Technology (SIMAT) is managed by Sreepathy Trust. 
+                        Located in a serene green campus at Vavanoor, Palakkad, our institution is dedicated to 
+                        providing quality engineering education and fostering research.
+                    </p>
+                    <ul class="about__list">
+                        <li class="about__list-item"><i class="fa-solid fa-circle-check"></i> AICTE Approved Institution</li>
+                        <li class="about__list-item"><i class="fa-solid fa-circle-check"></i> Affiliated with APJ Abdul Kalam Technological University</li>
+                        <li class="about__list-item"><i class="fa-solid fa-circle-check"></i> State-of-the-art Infrastructure</li>
+                        <li class="about__list-item"><i class="fa-solid fa-circle-check"></i> Focus on Innovation & Ethics</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievement Counters -->
+        <section class="stats section">
+            <div class="stats__container container grid reveal">
+                <div class="stats__card glass-card">
+                    <div class="stats__icon"><i class="fa-solid fa-user-graduate"></i></div>
+                    <h2 class="stats__number"><span class="counter" data-target="1000">0</span>+</h2>
+                    <p class="stats__title">Students</p>
+                </div>
+                <div class="stats__card glass-card">
+                    <div class="stats__icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+                    <h2 class="stats__number"><span class="counter" data-target="100">0</span>+</h2>
+                    <p class="stats__title">Teaching Staff</p>
+                </div>
+                <div class="stats__card glass-card">
+                    <div class="stats__icon"><i class="fa-solid fa-building"></i></div>
+                    <h2 class="stats__number"><span class="counter" data-target="9">0</span>+</h2>
+                    <p class="stats__title">Departments</p>
+                </div>
+                <div class="stats__card glass-card">
+                    <div class="stats__icon"><i class="fa-solid fa-award"></i></div>
+                    <h2 class="stats__number"><span class="counter" data-target="15">0</span>+</h2>
+                    <p class="stats__title">Years of Excellence</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Vision & Mission Section -->
+        <section class="vision-mission section">
+            <div class="container reveal">
+                <div class="vm__container grid">
+                    <div class="vm__card glass-card">
+                        <div class="vm__icon"><i class="fa-solid fa-eye"></i></div>
+                        <h3 class="vm__title">Our Vision</h3>
+                        <p class="vm__description">
+                            "Striving for excellence in generation and dissemination of knowledge."
+                        </p>
+                    </div>
+                    <div class="vm__card glass-card">
+                        <div class="vm__icon"><i class="fa-solid fa-bullseye"></i></div>
+                        <h3 class="vm__title">Our Mission</h3>
+                        <ul class="vm__list">
+                            <li><i class="fa-solid fa-arrow-right"></i> To mould engineers capable of addressing national and global challenges.</li>
+                            <li><i class="fa-solid fa-arrow-right"></i> To promote research, innovation, invention and entrepreneurship.</li>
+                            <li><i class="fa-solid fa-arrow-right"></i> To build strong industry-institute partnerships.</li>
+                            <li><i class="fa-solid fa-arrow-right"></i> To develop environmental awareness, ethics, social responsibility and lifelong learning.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose SIMAT -->
+        <section class="features section">
+            <h2 class="section__title text-center reveal">Why Choose <span>SIMAT</span></h2>
+            <div class="features__container container grid reveal">
+                <div class="feature__card">
+                    <div class="feature__icon"><i class="fa-solid fa-certificate"></i></div>
+                    <h3 class="feature__title">AICTE Approved</h3>
+                    <p class="feature__description">Recognized by the highest authority for technical education in India.</p>
+                </div>
+                <div class="feature__card">
+                    <div class="feature__icon"><i class="fa-solid fa-university"></i></div>
+                    <h3 class="feature__title">KTU Affiliation</h3>
+                    <p class="feature__description">Affiliated with APJ Abdul Kalam Technological University, Kerala.</p>
+                </div>
+                <div class="feature__card">
+                    <div class="feature__icon"><i class="fa-solid fa-user-tie"></i></div>
+                    <h3 class="feature__title">Experienced Faculty</h3>
+                    <p class="feature__description">Learn from highly qualified and industry-experienced professionals.</p>
+                </div>
+                <div class="feature__card">
+                    <div class="feature__icon"><i class="fa-solid fa-lightbulb"></i></div>
+                    <h3 class="feature__title">Research & Innovation</h3>
+                    <p class="feature__description">Dedicated cells to promote cutting-edge research and innovation.</p>
+                </div>
+                <div class="feature__card">
+                    <div class="feature__icon"><i class="fa-solid fa-handshake"></i></div>
+                    <h3 class="feature__title">Industry Collaboration</h3>
+                    <p class="feature__description">Strong tie-ups with leading industries for exposure and training.</p>
+                </div>
+                <div class="feature__card">
+                    <div class="feature__icon"><i class="fa-solid fa-rocket"></i></div>
+                    <h3 class="feature__title">Entrepreneurship</h3>
+                    <p class="feature__description">Incubation centers to support student startups and ideas.</p>
+                </div>
+                <div class="feature__card">
+                    <div class="feature__icon"><i class="fa-solid fa-briefcase"></i></div>
+                    <h3 class="feature__title">Placement Training</h3>
+                    <p class="feature__description">Comprehensive training programs for guaranteed placements.</p>
+                </div>
+                <div class="feature__card">
+                    <div class="feature__icon"><i class="fa-solid fa-leaf"></i></div>
+                    <h3 class="feature__title">Green Campus</h3>
+                    <p class="feature__description">Eco-friendly and serene environment conducive to learning.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Departments Section -->
+        <section class="departments section" id="departments">
+            <h2 class="section__title text-center reveal">Our <span>Departments</span></h2>
+            <div class="departments__container container grid reveal">
+                <!-- Dept 1 -->
+                <div class="dept__card glass-card">
+                    <div class="dept__icon"><i class="fa-solid fa-laptop-code"></i></div>
+                    <h3 class="dept__title">Computer Science & Engineering</h3>
+                    <p class="dept__description">Exploring the frontiers of computing, software, and systems design.</p>
+                    <a href="#" class="btn btn-text">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <!-- Dept 2 -->
+                <div class="dept__card glass-card">
+                    <div class="dept__icon"><i class="fa-solid fa-brain"></i></div>
+                    <h3 class="dept__title">Artificial Intelligence & Data Science</h3>
+                    <p class="dept__description">Pioneering the future with machine learning and big data analytics.</p>
+                    <a href="#" class="btn btn-text">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <!-- Dept 3 -->
+                <div class="dept__card glass-card">
+                    <div class="dept__icon"><i class="fa-solid fa-robot"></i></div>
+                    <h3 class="dept__title">Robotics & Artificial Intelligence</h3>
+                    <p class="dept__description">Integrating AI with physical systems for intelligent automation.</p>
+                    <a href="#" class="btn btn-text">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <!-- Dept 4 -->
+                <div class="dept__card glass-card">
+                    <div class="dept__icon"><i class="fa-solid fa-microchip"></i></div>
+                    <h3 class="dept__title">Electronics & Communication</h3>
+                    <p class="dept__description">Advancing technologies in embedded systems, IoT and communication.</p>
+                    <a href="#" class="btn btn-text">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <!-- Dept 5 -->
+                <div class="dept__card glass-card">
+                    <div class="dept__icon"><i class="fa-solid fa-plug"></i></div>
+                    <h3 class="dept__title">Electrical & Electronics</h3>
+                    <p class="dept__description">Powering the world with sustainable energy and smart grids.</p>
+                    <a href="#" class="btn btn-text">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <!-- Dept 6 -->
+                <div class="dept__card glass-card">
+                    <div class="dept__icon"><i class="fa-solid fa-cogs"></i></div>
+                    <h3 class="dept__title">Mechanical Engineering</h3>
+                    <p class="dept__description">Innovating in design, manufacturing, and thermal sciences.</p>
+                    <a href="#" class="btn btn-text">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <!-- Dept 7 -->
+                <div class="dept__card glass-card">
+                    <div class="dept__icon"><i class="fa-solid fa-city"></i></div>
+                    <h3 class="dept__title">Civil Engineering</h3>
+                    <p class="dept__description">Building sustainable infrastructure for tomorrow's society.</p>
+                    <a href="#" class="btn btn-text">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <!-- Dept 8 -->
+                <div class="dept__card glass-card">
+                    <div class="dept__icon"><i class="fa-solid fa-atom"></i></div>
+                    <h3 class="dept__title">Applied Science & Humanities</h3>
+                    <p class="dept__description">Building the foundational concepts in mathematics and sciences.</p>
+                    <a href="#" class="btn btn-text">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <!-- Dept 9 -->
+                <div class="dept__card glass-card">
+                    <div class="dept__icon"><i class="fa-solid fa-robot"></i></div>
+                    <h3 class="dept__title">Robotics</h3>
+                    <p class="dept__description">Designing and building automated machines and robotic systems.</p>
+                    <a href="#" class="btn btn-text">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Campus Facilities -->
+        <section class="facilities section" id="facilities">
+            <h2 class="section__title text-center reveal">Campus <span>Facilities</span></h2>
+            <div class="facilities__container container grid reveal">
+                <div class="facility__card">
+                    <i class="fa-solid fa-book-open-reader facility__icon"></i>
+                    <h3 class="facility__title">Library</h3>
+                </div>
+                <div class="facility__card">
+                    <i class="fa-solid fa-desktop facility__icon"></i>
+                    <h3 class="facility__title">Digital Library</h3>
+                </div>
+                <div class="facility__card">
+                    <i class="fa-solid fa-bed facility__icon"></i>
+                    <h3 class="facility__title">Hostel</h3>
+                </div>
+                <div class="facility__card">
+                    <i class="fa-solid fa-bus facility__icon"></i>
+                    <h3 class="facility__title">Transportation</h3>
+                </div>
+                <div class="facility__card">
+                    <i class="fa-solid fa-flask facility__icon"></i>
+                    <h3 class="facility__title">Laboratories</h3>
+                </div>
+                <div class="facility__card">
+                    <i class="fa-solid fa-mug-hot facility__icon"></i>
+                    <h3 class="facility__title">Cafeteria</h3>
+                </div>
+                <div class="facility__card">
+                    <i class="fa-solid fa-chalkboard-user facility__icon"></i>
+                    <h3 class="facility__title">Seminar Hall</h3>
+                </div>
+                <div class="facility__card">
+                    <i class="fa-solid fa-users-rectangle facility__icon"></i>
+                    <h3 class="facility__title">Auditorium</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Placement Dashboard -->
+        <section class="placements section" id="placements">
+            <div class="container reveal">
+                <h2 class="section__title text-center">Placement <span>Dashboard</span></h2>
+                <div class="placements__wrapper glass-card">
+                    <div class="placements__features grid">
+                        <div class="p__feature">
+                            <i class="fa-solid fa-chalkboard-teacher p__icon"></i>
+                            <h4>Placement Training</h4>
+                            <div class="progress-bar"><div class="progress" style="width: 100%;"></div></div>
+                        </div>
+                        <div class="p__feature">
+                            <i class="fa-solid fa-user-tie p__icon"></i>
+                            <h4>Mock Interviews</h4>
+                            <div class="progress-bar"><div class="progress" style="width: 95%;"></div></div>
+                        </div>
+                        <div class="p__feature">
+                            <i class="fa-solid fa-brain p__icon"></i>
+                            <h4>Aptitude Programs</h4>
+                            <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                        </div>
+                        <div class="p__feature">
+                            <i class="fa-solid fa-network-wired p__icon"></i>
+                            <h4>Industry Connect</h4>
+                            <div class="progress-bar"><div class="progress" style="width: 100%;"></div></div>
+                        </div>
+                    </div>
+                    
+                    <h3 class="recruiters__title text-center">Our Top Recruiters</h3>
+                    <div class="recruiters__grid grid">
+                        <div class="recruiter__item">Infosys</div>
+                        <div class="recruiter__item">TCS</div>
+                        <div class="recruiter__item">Capgemini</div>
+                        <div class="recruiter__item">UST</div>
+                        <div class="recruiter__item">HCL</div>
+                        <div class="recruiter__item">Speridian</div>
+                        <div class="recruiter__item">ThinkPalm</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Campus Gallery -->
+        <section class="gallery section">
+            <h2 class="section__title text-center reveal">Campus <span>Gallery</span></h2>
+            <div class="gallery__container container grid reveal">
+                <div class="gallery__item">
+                    <img src="images/gallery1.jpg" alt="Gallery Image 1" class="gallery__img" onerror="this.src='https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
+                    <div class="gallery__overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                </div>
+                <div class="gallery__item">
+                    <img src="images/gallery2.jpg" alt="Gallery Image 2" class="gallery__img" onerror="this.src='https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
+                    <div class="gallery__overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                </div>
+                <div class="gallery__item">
+                    <img src="images/gallery3.jpg" alt="Gallery Image 3" class="gallery__img" onerror="this.src='https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
+                    <div class="gallery__overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                </div>
+                <div class="gallery__item">
+                    <img src="images/campus.jpg" alt="Gallery Image 4" class="gallery__img" onerror="this.src='https://images.unsplash.com/photo-1519452285514-323a4115167f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
+                    <div class="gallery__overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lightbox for Gallery -->
+        <div class="lightbox" id="lightbox">
+            <span class="lightbox__close" id="lightbox-close">&times;</span>
+            <img src="" alt="Lightbox Image" class="lightbox__img" id="lightbox-img">
+        </div>
+
+        <!-- Testimonials -->
+        <section class="testimonials section">
+            <h2 class="section__title text-center reveal">Student <span>Testimonials</span></h2>
+            <div class="testimonial__container container reveal">
+                <div class="testimonial__slider" id="testimonial-slider">
+                    <!-- Slide 1 -->
+                    <div class="testimonial__card glass-card active">
+                        <i class="fa-solid fa-quote-left quote-icon"></i>
+                        <p class="testimonial__text">
+                            "SIMAT has provided me with the best platform to explore my potential. The faculties are extremely supportive and the infrastructure is top-notch."
+                        </p>
+                        <div class="testimonial__user">
+                            <img src="https://ui-avatars.com/api/?name=Rahul+K&background=random" alt="Student" class="testimonial__img">
+                            <div>
+                                <h4 class="testimonial__name">Rahul K.</h4>
+                                <span class="testimonial__branch">Computer Science</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="testimonial__card glass-card">
+                        <i class="fa-solid fa-quote-left quote-icon"></i>
+                        <p class="testimonial__text">
+                            "The placement cell here works tirelessly to ensure every student gets the best opportunities. Very grateful for the industry exposure I received."
+                        </p>
+                        <div class="testimonial__user">
+                            <img src="https://ui-avatars.com/api/?name=Anjali+Menon&background=random" alt="Student" class="testimonial__img">
+                            <div>
+                                <h4 class="testimonial__name">Anjali Menon</h4>
+                                <span class="testimonial__branch">Electronics & Communication</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="testimonial__card glass-card">
+                        <i class="fa-solid fa-quote-left quote-icon"></i>
+                        <p class="testimonial__text">
+                            "Beautiful green campus, state-of-the-art labs, and a curriculum that focuses on practical learning. SIMAT is truly empowering future engineers."
+                        </p>
+                        <div class="testimonial__user">
+                            <img src="https://ui-avatars.com/api/?name=Vishnu+P&background=random" alt="Student" class="testimonial__img">
+                            <div>
+                                <h4 class="testimonial__name">Vishnu P.</h4>
+                                <span class="testimonial__branch">Mechanical Engineering</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__dots" id="slider-dots"></div>
+            </div>
+        </section>
+
+        <!-- Admissions CTA -->
+        <section class="admissions section" id="admissions">
+            <div class="admissions__container container glass-card reveal">
+                <div class="admissions__content text-center">
+                    <h2 class="admissions__title">Admissions Open 2026</h2>
+                    <p class="admissions__text">Join Sreepathy Institute of Management & Technology and shape your future.</p>
+                    <div class="admissions__buttons">
+                        <a href="#" class="btn btn-primary">Apply Now</a>
+                        <a href="#" class="btn btn-outline">Download Brochure</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <h2 class="section__title text-center reveal">Contact <span>Us</span></h2>
+            <div class="contact__container container grid reveal">
+                <div class="contact__info glass-card">
+                    <h3 class="contact__subtitle">Get In Touch</h3>
+                    <div class="contact__item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Sreepathy Institute of Management & Technology<br>Vavanoor, Koottanad<br>Palakkad, Kerala, India - 679533</p>
+                        </div>
+                    </div>
+                    <div class="contact__item">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>1122334455</p>
+                        </div>
+                    </div>
+                    <div class="contact__item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>smilepls34@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact__social">
+                        <a href="#" class="social__link"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="social__link"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="social__link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social__link"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact__form-container glass-card">
+                    <form action="#" class="contact__form" id="contact-form">
+                        <div class="form__group">
+                            <input type="text" placeholder="Your Name" class="form__input" required>
+                        </div>
+                        <div class="form__group">
+                            <input type="email" placeholder="Your Email" class="form__input" required>
+                        </div>
+                        <div class="form__group">
+                            <input type="text" placeholder="Subject" class="form__input" required>
+                        </div>
+                        <div class="form__group">
+                            <textarea placeholder="Message" class="form__input form__textarea" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="map__container container reveal">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3921.233512391039!2d76.10821531479951!3d10.79258299231015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7cf574226d9c7%3A0xc3ab5d496a84eb83!2sSreepathy%20Institute%20of%20Management%20and%20Technology%20(SIMAT)!5e0!3m2!1sen!2sin!4v1684334005051!5m2!1sen!2sin" width="100%" height="400" style="border:0; border-radius: 1rem; margin-top: 2rem;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">
+                    <i class="fa-solid fa-graduation-cap"></i> SIMAT
+                </a>
+                <p class="footer__description">
+                    Empowering Future Engineers. AICTE Approved & KTU Affiliated engineering college in Kerala.
+                </p>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Quick Links</h3>
+                <ul class="footer__links">
+                    <li><a href="#about" class="footer__link">About Us</a></li>
+                    <li><a href="#admissions" class="footer__link">Admissions</a></li>
+                    <li><a href="#placements" class="footer__link">Placements</a></li>
+                    <li><a href="#facilities" class="footer__link">Facilities</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Departments</h3>
+                <ul class="footer__links">
+                    <li><a href="#" class="footer__link">Computer Science</a></li>
+                    <li><a href="#" class="footer__link">AI & Data Science</a></li>
+                    <li><a href="#" class="footer__link">Robotics & AI</a></li>
+                    <li><a href="#" class="footer__link">Electronics & Comm.</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Contact Info</h3>
+                <ul class="footer__contact">
+                    <li><i class="fa-solid fa-location-dot"></i> Vavanoor, Koottanad, Kerala</li>
+                    <li><i class="fa-solid fa-phone"></i> 1122334455</li>
+                    <li><i class="fa-solid fa-envelope"></i> smilepls34@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer__bottom container">
+            <p class="footer__copy">&#169; 2026 Sreepathy Institute of Management & Technology. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-top" id="back-top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
